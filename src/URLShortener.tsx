@@ -37,7 +37,7 @@ const URLShortener: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>List URLs Shortener (multiple REQUEST)</h1>  
+      <h1>List URLs Shortener (multiple API REQUEST)</h1>  
       <textarea className="input-area" value={inputUrls.join('\n')} onChange={handleUrlChange}></textarea>
       <button className="button" onClick={handleShortenUrls}>Shorten URLs</button>
       {shortenedUrls.length > 0 && (
