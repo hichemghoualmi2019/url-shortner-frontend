@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,5 +22,20 @@ function App() {
     </div>
   );
 }
+
+export default App; */
+
+import React from 'react';
+import MultipleURLShortener from './MultipleURLShortener';
+import URLShortener from './URLShortener';
+
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <MultipleURLShortener />
+      <URLShortener />
+    </div>
+  );
+};
 
 export default App;
